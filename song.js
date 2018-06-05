@@ -19,7 +19,7 @@ $(function(){
     })
 
     let audio = document.createElement('audio')
-    audio.src="//dl.stream.qqmusic.qq.com/C4000012wpTL1jLNhJ.m4a?vkey=EB85F877C3CA715A0A012954B88A68C5585DEED0D3102B3916E1B0904CEAC7EE7E6D344FE90EE296F0A82D0DF2F5E62944B5C5894333825C&guid=5035692450&uin=0&fromtag=66"
+    audio.src="//dl.stream.qqmusic.qq.com/C4000012wpTL1jLNhJ.m4a?vkey=73876FEB1AB07CFC08B7F8AC3910F22A97A0418BD330F50E3083158DD136E5F314B0AEF239E5C75931DB0AD7A14E8C7CC8D481110FAE75E3&guid=5035692450&uin=0&fromtag=66"
     audio.oncanplay = function(){
         audio.play()
         $('.disc-container').addClass('playing')
