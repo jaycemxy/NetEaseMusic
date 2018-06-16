@@ -18,6 +18,8 @@ section>h2:first-child{ font-size: 4.53vw; border-left: 2px solid #d33a31; margi
 .siteNav > ol > li> span{ height: 10vw; line-height: 11vw; display: inline-block; position: relative; padding: 0 5px;}
 .siteNav > ol > li.active> span::after{ content: ''; position: absolute; bottom: 0; border-top: 2px solid #d33a31; left: 0vw; width: 100%;}
 
+.tabContent > li {display: none;}
+.tabContent > li.active { display: block; }
 
 .playlists{ margin-top: 5.5vw; }
 .playlists > ul{ display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 0.93em; }
