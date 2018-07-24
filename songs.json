@@ -22,23 +22,28 @@
     },
     {
         "id": 4,
-        "url":"http://p9ujxuvsr.bkt.clouddn.com/1.mp3",
-        "name":"爱了很久的朋友"
+        "url":"http://p9ujxuvsr.bkt.clouddn.com/%E6%96%B9%E5%A4%A7%E5%90%8C%20-%20%E6%98%A5%E9%A3%8E%E5%90%B9.mp3",
+        "name":"春风吹",
+        "singer":"方大同",
+        "lyric":""
     },
     {
         "id": 5,
-        "url":"http://p9ujxuvsr.bkt.clouddn.com/2.mp3",
-        "name":"椿"
+        "url":"http://p9ujxuvsr.bkt.clouddn.com/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E6%97%A0%E6%9D%A1%E4%BB%B6.mp3",
+        "name":"无条件",
+        "singer":"陈奕迅"
     },
     {
         "id": 6,
-        "url":"http://p9ujxuvsr.bkt.clouddn.com/3.mp3",
-        "name":"说散就散"
+        "url":"http://p9ujxuvsr.bkt.clouddn.com/%E8%B5%B5%E7%84%95%E7%84%B6%20-%20%E5%B9%BF%E4%B8%9C%E7%88%B1%E6%83%85%E6%95%85%E4%BA%8B%EF%BC%88Cover%20%E5%B9%BF%E4%B8%9C%E9%9B%A8%E7%A5%9E%EF%BC%89.mp3",
+        "name":"广东爱情故事",
+        "singer":"赵焕然"
     },
     {
         "id": 7,
-        "url":"http://p9ujxuvsr.bkt.clouddn.com/1.mp3",
-        "name":"爱了很久的朋友"
+        "url":"http://p9ujxuvsr.bkt.clouddn.com/Ryan.B,AY%E6%A5%8A%E4%BD%AC%E5%8F%81%20-%20%E5%86%8D%E4%B9%9F%E6%B2%A1%E6%9C%89.mp3",
+        "name":"再也没有",
+        "singer":"Ryan"
     },
     {
         "id": 8,

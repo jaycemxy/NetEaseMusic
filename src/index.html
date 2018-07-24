@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>网易云音乐</title>
     <meta name="viewport" content="width=device-width, user-scalable: no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
@@ -108,7 +108,7 @@
             <section class="lastestMusic">
                 <h2>最新音乐</h2>
                 <p>
-                    <img id="lastestMusicLoading" src="./images/download.gif" alt="">
+                    <img id="lastestMusicLoading" src="../images/download.gif" alt="">
                 </p>
                 <ol id="lastestMusic"></ol>
             </section>
@@ -156,14 +156,22 @@
         <li>
             222
         </li>
-        <li>
-            <input id="searchSong" type="text" style="border: 1px solid red;">
+        <li class="searchArea">
+            <span>
+                <svg class="icon iconSearch" aria-hidden="true">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+            </span>
+            <label>
+                <input id="searchSong" type="text" placeholder="搜索歌曲">
+            </label>
             <div id="output"></div>
         </li>
     </ol>
     <script src="//at.alicdn.com/t/font_694920_euvpg8pisl.js"></script>
     <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="//at.alicdn.com/t/font_760895_5tm8gvoddap.js"></script>
 </body>
 
 </html>

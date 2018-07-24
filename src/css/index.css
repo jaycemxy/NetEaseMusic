@@ -3,6 +3,13 @@
 ul,ol{ list-style: none; }
 h1,h2,h3{font-weight: normal;}
 
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    color: #777;
+}
+
 body{ font-size: 3.7vw; }
 
 section>h2:first-child{ font-size: 4.53vw; border-left: 2px solid #d33a31; margin: 4vw 0; font-weight: normal; padding-left: 2.6vw; line-height: 1; }
@@ -42,3 +49,34 @@ section.art .logo{ text-align: center; }
 section.art .logosvg{ width: 61.7vw; }
 section.art .openApp{ display:block; max-width: 81.3vw; padding: 1vw 0; margin: 0 auto; text-align: center; color: #d43c33; border: 1px solid; font-size: 4.3vw; text-decoration: none; line-height: 8.6vw; border-radius: 5.3vw; margin-bottom: 1vw; margin-top: 3vw;}
 section.art .copyright{ font-size: 3.2vw; transform: scale(.75); text-align: center; color: #888;}
+
+.searchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.iconSearch{
+    box-sizing: border-box;
+    margin: 4px -26px 0 0;
+    z-index: 1;
+}
+
+.searchArea > label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.searchArea > label > input{
+    padding: 0 30px;
+    width: 100%;
+    height: 30px;
+    color: #333;
+    font-size: 14px;
+    background: #ebecec;
+    border: none;
+    border-radius: 15px;
+}
