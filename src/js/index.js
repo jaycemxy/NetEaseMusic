@@ -35,6 +35,7 @@ $(function () {
         }
         if (index === 1) {
             $.get('../page2.json').then((response) => {
+                return
                 $li.text(response.content)
                 $li.attr('data-downloaded', 'yes')
             })
@@ -85,6 +86,22 @@ $(function () {
                 {
                     "id": 3,
                     "name": "说散就散"
+                },
+                {
+                    "id": 4,
+                    "name": "春风吹"
+                },
+                {
+                    "id": 5,
+                    "name": "无条件"
+                },
+                {
+                    "id": 6,
+                    "name": "广东爱情故事"
+                },
+                {
+                    "id": 7,
+                    "name": "再也没有"
                 }
             ]
             let result = database.filter(function (item) {
