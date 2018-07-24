@@ -48,16 +48,19 @@
     {
         "id": 8,
         "url":"http://p9ujxuvsr.bkt.clouddn.com/2.mp3",
-        "name":"椿"
+        "name":"椿",
+        "singer":"沈以诚"
     },
     {
         "id": 9,
         "url":"http://p9ujxuvsr.bkt.clouddn.com/3.mp3",
-        "name":"说散就散"
+        "name":"说散就散",
+        "singer":"袁娅维"
     },
     {
         "id": 10,
         "url":"http://p9ujxuvsr.bkt.clouddn.com/1.mp3",
-        "name":"爱了很久的朋友"
+        "name":"爱了很久的朋友",
+        "singer":"田馥甄"
     }
 ]
