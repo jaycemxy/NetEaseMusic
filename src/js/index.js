@@ -107,6 +107,18 @@ $(function () {
                 {
                     "id": 7,
                     "name": "再也没有"
+                },
+                {
+                    "id": 8,
+                    "name": "慕容雪"
+                },
+                {
+                    "id": 9,
+                    "name": "甜葡萄 红眼睛"
+                },
+                {
+                    "id": 10,
+                    "name": "成全"
                 }
             ]
             let result = database.filter(function (item) {
