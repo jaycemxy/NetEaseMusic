@@ -6,9 +6,12 @@
     <title>网易云音乐</title>
     <meta name="viewport" content="width=device-width, user-scalable: no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/hot-tab.css">
+    <link rel="stylesheet" href="./css/search-tab.css">
 </head>
 
 <body>
+    <!-- 页面顶部logo区 -->
     <header class="topbar">
         <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 50" data-reactid="6">
             <g fill="#fff" data-reactid="7">
@@ -55,6 +58,8 @@
         </svg>
         <a class="downloadApp" href="#">下载APP</a>
     </header>
+
+    <!-- 页面导航栏 -->
     <nav class="siteNav">
         <ol class="tabItems">
             <li class="active">
@@ -68,7 +73,10 @@
             </li>
         </ol>
     </nav>
+
+    <!-- 页面主要内容 -->
     <ol class="tabContent">
+        <!-- 推荐音乐tab -->
         <li class="active">
             <section class="playlists">
                 <h2>推荐歌单</h2>
@@ -147,6 +155,8 @@
                 </footer>
             </section>
         </li>
+
+        <!-- 热歌榜tab -->
         <li>
             <div class="bg-hottop">
                 <div class="hoticon"></div>
@@ -346,6 +356,8 @@
             </ul>
             <p class="tip">没有更多了！</p>
         </li>
+
+        <!-- 搜索tab -->
         <li>
             <div class="searchArea">
                 <span class="iconSearch">
